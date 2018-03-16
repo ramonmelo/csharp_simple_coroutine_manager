@@ -2,7 +2,7 @@
 
 namespace CoroutineApp
 {
-    class WaitFor : IYieldInstance
+    public class WaitFor : IYieldInstance
     {
         private long waitTime;
         private Stopwatch stopwatch;
